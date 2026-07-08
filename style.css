@@ -61,7 +61,7 @@ ul {
     padding: 0 20px;
 }
 
-/* ============ HEADER ============ */
+/* ========== HEADER ========== */
 .header {
     position: fixed;
     top: 0;
@@ -172,7 +172,7 @@ ul {
     text-align: center;
 }
 
-/* ============ BUTTONS ============ */
+/* ========== BUTTONS ========== */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -223,7 +223,7 @@ ul {
     flex-shrink: 0;
 }
 
-/* ============ SECTION HEADER ============ */
+/* ========== SECTION HEADER ========== */
 .section-header {
     text-align: center;
     margin-bottom: 48px;
@@ -254,7 +254,7 @@ ul {
     font-weight: 500;
 }
 
-/* ============ HERO ============ */
+/* ========== HERO ========== */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -281,9 +281,9 @@ ul {
     inset: 0;
     background: linear-gradient(
         180deg,
-        rgba(13, 13, 13, 0.7) 0%,
-        rgba(13, 13, 13, 0.5) 50%,
-        rgba(13, 13, 13, 0.85) 100%
+        rgba(13, 13, 13, 0.82) 0%,
+        rgba(13, 13, 13, 0.7) 50%,
+        rgba(13, 13, 13, 0.92) 100%
     );
 }
 
@@ -350,19 +350,19 @@ ul {
     height: 14px;
 }
 
-/* ============ DIFFERENTIALS ============ */
-.differentials {
+/* ========== DIFERENCIALES ========== */
+.diferenciales {
     padding: 100px 0;
     background-color: var(--color-bg-secondary);
 }
 
-.differentials__grid {
+.diferenciales__grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
 }
 
-.differentials__card {
+.diferenciales__card {
     background-color: var(--color-bg-card);
     border: 1px solid var(--color-border);
     border-radius: 12px;
@@ -371,12 +371,12 @@ ul {
     transition: var(--transition-medium);
 }
 
-.differentials__card:hover {
+.diferenciales__card:hover {
     border-color: var(--color-accent-platinum);
     transform: translateY(-4px);
 }
 
-.differentials__card-number {
+.diferenciales__card-number {
     font-family: var(--font-heading);
     font-size: 2.5rem;
     font-weight: 700;
@@ -385,20 +385,20 @@ ul {
     margin-bottom: 12px;
 }
 
-.differentials__card-title {
+.diferenciales__card-title {
     font-family: var(--font-heading);
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 12px;
 }
 
-.differentials__card-text {
+.diferenciales__card-text {
     font-size: 0.9rem;
     color: var(--color-text-secondary);
     line-height: 1.7;
 }
 
-/* ============ DIVIDER ============ */
+/* ========== DIVIDER ========== */
 .divider {
     padding: 60px 0;
     background-color: var(--color-bg-primary);
@@ -435,7 +435,7 @@ ul {
     font-style: normal;
 }
 
-/* ============ MENU ============ */
+/* ========== MENÚ ========== */
 .menu {
     padding: 100px 0;
     background-color: var(--color-bg-primary);
@@ -502,19 +502,6 @@ ul {
     white-space: nowrap;
 }
 
-.menu__item-dots {
-    flex: 1;
-    border-bottom: 1px dotted var(--color-border-light);
-    min-width: 20px;
-    margin-bottom: 4px;
-}
-
-.menu__item-price {
-    font-weight: 600;
-    color: var(--color-accent-gold);
-    white-space: nowrap;
-}
-
 .menu__item-desc {
     font-size: 0.82rem;
     color: var(--color-text-muted);
@@ -526,20 +513,12 @@ ul {
     display: none;
 }
 
-.menu__image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 12px;
-    min-height: 400px;
-}
-
 .menu__cta {
     text-align: center;
     margin-top: 48px;
 }
 
-/* ============ PROCESS ============ */
+/* ========== PROCESS ========== */
 .process {
     padding: 100px 0;
     background-color: var(--color-bg-secondary);
@@ -590,7 +569,7 @@ ul {
     line-height: 1.7;
 }
 
-/* ============ STAR PRODUCT ============ */
+/* ========== STAR PRODUCT ========== */
 .star-product {
     display: grid;
     grid-template-columns: 1fr;
@@ -634,45 +613,41 @@ ul {
     margin-top: 28px;
 }
 
-/* ============ GALLERY ============ */
-.gallery {
+/* ========== GALERÍA ========== */
+.galeria {
     padding: 100px 0;
     background-color: var(--color-bg-secondary);
 }
 
-.gallery__grid {
+.galeria__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
 }
 
-.gallery__item {
+.galeria__item {
     overflow: hidden;
     border-radius: 8px;
     aspect-ratio: 1;
 }
 
-.gallery__item img {
+.galeria__item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: var(--transition-medium);
 }
 
-.gallery__item:hover img {
+.galeria__item:hover img {
     transform: scale(1.05);
 }
 
-.gallery__item--wide {
+.galeria__item--wide {
     grid-column: span 2;
     aspect-ratio: 2/1;
 }
 
-.gallery__item--tall {
-    aspect-ratio: 1;
-}
-
-/* ============ TESTIMONIALS ============ */
+/* ========== TESTIMONIALS ========== */
 .testimonials {
     padding: 100px 0;
     background-color: var(--color-bg-primary);
@@ -746,46 +721,46 @@ ul {
     color: var(--color-text-muted);
 }
 
-/* ============ MOMENTS ============ */
-.moments {
+/* ========== MOMENTOS ========== */
+.momentos {
     padding: 100px 0;
     background-color: var(--color-bg-secondary);
 }
 
-.moments__grid {
+.momentos__grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
 }
 
-.moments__card {
+.momentos__card {
     background-color: var(--color-bg-card);
     border: 1px solid var(--color-border);
     border-radius: 12px;
     overflow: hidden;
 }
 
-.moments__card-image {
+.momentos__card-image {
     height: 200px;
     overflow: hidden;
 }
 
-.moments__card-image img {
+.momentos__card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: var(--transition-medium);
 }
 
-.moments__card:hover .moments__card-image img {
+.momentos__card:hover .momentos__card-image img {
     transform: scale(1.05);
 }
 
-.moments__card-content {
+.momentos__card-content {
     padding: 24px;
 }
 
-.moments__card-hours {
+.momentos__card-hours {
     display: inline-block;
     padding: 4px 12px;
     background-color: var(--color-bg-tertiary);
@@ -797,20 +772,20 @@ ul {
     margin-bottom: 12px;
 }
 
-.moments__card-title {
+.momentos__card-title {
     font-family: var(--font-heading);
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.moments__card-text {
+.momentos__card-text {
     font-size: 0.88rem;
     color: var(--color-text-secondary);
     line-height: 1.7;
 }
 
-/* ============ HOURS ============ */
+/* ========== HOURS ========== */
 .hours {
     padding: 100px 0;
     background-color: var(--color-bg-primary);
@@ -868,7 +843,7 @@ ul {
     min-height: 300px;
 }
 
-/* ============ STORY ============ */
+/* ========== STORY ========== */
 .story {
     padding: 100px 0;
     background-color: var(--color-bg-secondary);
@@ -932,7 +907,7 @@ ul {
     color: var(--color-accent-gold);
 }
 
-/* ============ PRESS ============ */
+/* ========== PRESS ========== */
 .press {
     padding: 100px 0;
     background-color: var(--color-bg-primary);
@@ -968,7 +943,7 @@ ul {
     font-style: normal;
 }
 
-/* ============ NEWSLETTER ============ */
+/* ========== NEWSLETTER ========== */
 .newsletter {
     padding: 80px 0;
     background-color: var(--color-bg-secondary);
@@ -1021,7 +996,7 @@ ul {
     color: var(--color-text-muted);
 }
 
-/* ============ CONTACT ============ */
+/* ========== CONTACT ========== */
 .contact {
     padding: 100px 0;
     background-color: var(--color-bg-primary);
@@ -1132,7 +1107,7 @@ select.contact__input {
     color: var(--color-accent-gold);
 }
 
-/* ============ FOOTER ============ */
+/* ========== FOOTER ========== */
 .footer {
     padding: 40px 0;
     background-color: var(--color-bg-primary);
@@ -1213,7 +1188,7 @@ select.contact__input {
     color: var(--color-accent-platinum);
 }
 
-/* ============ WHATSAPP FLOAT ============ */
+/* ========== WHATSAPP FLOAT ========== */
 .whatsapp-float {
     position: fixed;
     bottom: 24px;
@@ -1241,7 +1216,7 @@ select.contact__input {
     fill: white;
 }
 
-/* ============ ANIMATIONS ============ */
+/* ========== ANIMATIONS ========== */
 .animate-on-scroll {
     opacity: 0;
     transform: translateY(24px);
@@ -1253,7 +1228,7 @@ select.contact__input {
     transform: translateY(0);
 }
 
-/* ============ DESKTOP ============ */
+/* ========== DESKTOP ========== */
 @media (min-width: 768px) {
     .container {
         padding: 0 40px;
@@ -1268,7 +1243,7 @@ select.contact__input {
         flex-direction: row;
         position: static;
         background: transparent;
-        border: none;
+        border-bottom: none;
         padding: 0;
         transform: none;
         opacity: 1;
@@ -1282,14 +1257,9 @@ select.contact__input {
         font-size: 0.85rem;
     }
 
-    .nav__link:last-child {
-        border-bottom: none;
-    }
-
     .nav__link--cta {
         margin-top: 0;
         padding: 8px 20px;
-        border-radius: 6px;
     }
 
     .hero__title {
@@ -1301,7 +1271,7 @@ select.contact__input {
         justify-content: center;
     }
 
-    .differentials__grid {
+    .diferenciales__grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 24px;
     }
@@ -1349,11 +1319,7 @@ select.contact__input {
         text-align: left;
     }
 
-    .star-product__title {
-        font-size: 2.8rem;
-    }
-
-    .gallery__grid {
+    .galeria__grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 16px;
     }
@@ -1363,7 +1329,7 @@ select.contact__input {
         gap: 24px;
     }
 
-    .moments__grid {
+    .momentos__grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 24px;
     }
@@ -1391,10 +1357,6 @@ select.contact__input {
 
     .newsletter__form {
         flex-direction: row;
-    }
-
-    .newsletter__input {
-        flex: 1;
     }
 
     .contact__form-row {
